@@ -17,7 +17,9 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    
     <!-- Custom css -->
     <link href="css/styles.css" rel="stylesheet">
 
@@ -83,25 +85,20 @@
 
     <section class="" id="about">
       <div class="container-fluid">
-        <div class="row">
-            <div class="rectangle-container container-fluid">
-                <div class="big-circle">
-                  <div class="text-container">
-                    Bonjour!<br>
-                    Je m'appelle Allison Borgo.<br>
-                    Jeune infographiste, photographe et webdesigner, située à Paris.<br>
-                    Passionnée de l’art sous toutes ces formes, je vous propose de découvrir mon univers avec quelques uns de mes projets.<br>
-                    Bonne visite !
-                  </div>
-                  <div class="circle1">
-                    <img class="img-fluid profile-pic" src="img/profile-pic.jpg" alt="">
-                  </div>
-                  <div class="circle2">
-                      <a class="cv-text" href="cv.pdf" target="_blank">CV</a>
-                  </div>
-                </div>
-            </div>
-        </div>
+          
+          <div class="tile" data-scale="1.03" data-image="img/profile-pic-large.jpg"></div>
+          <br>
+          <h2>JE SUIS INFOGRAPHISTE, PHOTOGRAPHE, WEBDESIGNER</h2>
+          <div style="width: 60%; margin: 0 auto;">
+          Passionnée depuis des années par l'art photographique, j'ai étudié
+          le métier de photographe, pour ensuite me diriger dans le milieu
+          du graphisme et du webdesign à l'école ITECOM.
+          </div>
+
+
+          <div class="cv-button">
+              <a class="cv-text" href="cv.pdf" target="_blank">CV</a>
+          </div>
       </div>
     </section>
 
@@ -110,7 +107,7 @@
     <section class="p-0" id="portfolio-print">
       <div class="container-fluid">
         <div class="portfolio-title">PROJETS PRINT</div>
-        <div class="row gutter popup-gallery">
+        <div class="row gutter">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="">
               <img class="img-fluid" src="img/portfolio-print/thumbnails/01.jpg" alt="">
@@ -208,7 +205,7 @@
     <section class="p-0" id="portfolio-web">
       <div class="container-fluid">
         <div class="portfolio-title">PROJETS WEB</div>
-        <div class="row gutter popup-gallery">
+        <div class="row gutter">
           <div class="col-lg-4 col-sm-6">
             <a class="portfolio-box" href="">
               <img class="img-fluid" src="img/portfolio-web/thumbnails/01.jpg" alt="">
@@ -253,19 +250,127 @@
     <section class="p-0" id="carousel">
       <div class="container-fluid">
         <div class="portfolio-title">PROJETS PHOTO</div>
-        <div class="row">
-          <div class="fade-carousel col-md-12">
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/01.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/02.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/03.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/04.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/05.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/06.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/07.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/08.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/09.jpg" alt=""></p>
-            <p><img class="img-fluid" src="img/portfolio-photo/thumbnails/10.jpg" alt=""></p>
-          </div>
+          <div class="row gutter popup-gallery">
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/01.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/01.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site Wanderlust90
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/02.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/02.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur l'alpinisme
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/03.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/03.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/04.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/04.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/05.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/05.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/06.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/06.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/07.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/07.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/08.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/08.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/09.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/09.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="img/portfolio-photo/fullsize/10.jpg">
+                <img class="img-fluid" src="img/portfolio-photo/thumbnails/10.jpg" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Site sur les Massaî
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
         </div>
       </div>
     </section>
@@ -314,6 +419,8 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    
     <!-- Custom scripts for this template -->
     <script src="js/portfolio.js"></script>
 

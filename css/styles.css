@@ -137,61 +137,48 @@ header.masthead {
     margin-bottom: 70px;
     padding-top:20px;
     background-color: transparent !important;
+    text-align: center;
 }
 
-.rectangle-container{
-  width: 100%;
-  background-color: transparent;
-}
 
-.big-circle{
-  display:block;
-  height:500px;
-  border-radius: 500px;
-  max-width: 500px;
-  position:relative;
-  margin-top:100px;
-  margin-left:auto;
+
+.tile {
+  margin-left: auto;
   margin-right: auto;
-  border:1px solid black;
-  padding: 40px;
-  font-size: 18px;
-  text-align: center;
-  vertical-align: middle;
-  font-weight: bold;
-  background-color: white;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  min-height: 300px;
+  overflow: hidden;
 }
 
-.text-container{
-  vertical-align: middle;
+.photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform .5s ease-out;
 }
 
-.circle1{
-  position:absolute;
-  border-radius:200px;
-  border:1px solid black;
-}
-
-.circle2{
-  position:absolute;
-  height:300px;
-  width:200px;
-  border-radius:300px;
-  border:1px solid black;
-  right:-66px;
-  bottom: -66px;
+.cv-button{
+  height:80px;
+  width:80px;
   background:black;
+  float:right;
+  margin-right: 10%;
+  margin-top:30px;
 }
 
-.profile-pic{
-    border-radius: 100px;
-}
 
 .cv-text{
   color:white;
   font-size: 25px;
   text-align: center;
-  line-height: 100px;
+  line-height: 80px;
 }
 
 
@@ -417,65 +404,9 @@ fieldset {
         .navlink a{
             font-size: 6vw;
         }
-        .fade-carousel {
-            margin-bottom: 0px;
-        }
-        .circle1{
-          height:100px;
-          width:100px;
-          border-radius:200px;
-          left:-10px;
-          top: -50px;
-        }
-        .circle2{
-          height:70px;
-          width:70px;
-          border-radius:100px;
-          right:-5px;
-          bottom: -20px;
-        }
-        .cv-text{
-            line-height: 70px;
-        }
-        .big-circle{
-            font-size: 14px;
-            padding-top: 30px;
-            padding-left: 20px;
-            padding-right: 20px;
-            height:250px;
-            width:250px;
-        }
 }
 
 @media only screen and (min-width : 320px) {
-        .fade-carousel {
-            margin-bottom: 0px;
-        }
-        .circle1{
-          height:110px;
-          width:110px;
-          border-radius:200px;
-          left:-10px;
-          top: -60px;
-        }
-        .circle2{
-          height:80px;
-          width:80px;
-          border-radius:100px;
-          right:10px;
-          bottom:-30px;
-        }
-        .cv-text{
-            line-height: 80px;
-        }
-        .big-circle{
-            font-size: 17px;
-            padding-top: 40px;
-            padding-left: 20px;
-            padding-right: 20px;
-            height:300px;
-            width:300px;
-        }
     }
 
     /* Extra Small Devices, Phones */ 
@@ -495,34 +426,6 @@ fieldset {
         #main-logo{
             width: 350px;
         }
-        .fade-carousel {
-            margin-bottom: 0px;
-        }
-        .circle1{
-          height:150px;
-          width:150px;
-          border-radius:200px;
-          left:-10px;
-          top: -80px;
-        }
-        .circle2{
-          height:100px;
-          width:100px;
-          border-radius:100px;
-          right:10px;
-          bottom:-30px;
-        }
-        .cv-text{
-            line-height: 100px;
-        }
-        .big-circle{
-            font-size: 22px;
-            padding-top: 50px;
-            padding-left: 20px;
-            padding-right: 20px;
-            height:400px;
-            width: 400px;
-        }
     }
 
     /* Small Devices, Tablets */
@@ -530,37 +433,12 @@ fieldset {
         #main-logo{
             width: 400px;
         }
-        .fade-carousel {
-            margin-bottom: 0px;
-        }
-        .circle1{
-          height:200px;
-          width:200px;
-          border-radius:200px;
-          left:-90px;
-          top: -80px;
-        }
-        .big-circle{
-            font-size: 22px;
-            padding-top: 50px;
-            padding-left: 50px;
-            padding-right: 50px;
-        }
     }
 
     /* Medium Devices, Desktops */
     @media only screen and (min-width : 992px) {
         #main-logo{
             width: 500px;
-        }
-        .fade-carousel {
-            margin-bottom: 0px;
-        }
-        .big-circle{
-            font-size: 22px;
-            padding-top: 50px;
-            padding-left: 50px;
-            padding-right: 50px;
         }
     }
 
