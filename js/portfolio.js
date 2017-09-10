@@ -3,6 +3,20 @@
     $(document).ready(function(){
     $(this).scrollTop(0);
     });
+  
+/*    $(window).on('load',function() {
+
+    var hash = window.location.hash;
+
+    if (hash == "#portfolio-print") {
+      var top = document.getElementById("#portfolio-print").offsetTop; //Getting Y of target element
+      window.scrollTo(0, top);
+
+    } else if (hash == "#portfolio-web") {
+      //select tab 3 etc
+    }
+    });*/
+  
     
     "use strict";
   
